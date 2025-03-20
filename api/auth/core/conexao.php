@@ -15,8 +15,8 @@ try {
 
 
 // Validar Token gerado
-require_once "../../jwt/JWT.php";
-require_once "../../jwt/Key.php";
+require_once dirname(__DIR__) . "/jwt/JWT.php";
+require_once dirname(__DIR__). "/jwt/Key.php";
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
